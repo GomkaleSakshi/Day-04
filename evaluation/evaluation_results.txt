@@ -1,0 +1,25 @@
+Hygiene risk model evaluation
+Test set: 20%, random_state=42
+
+Logistic Regression
+  Accuracy: 1.0000
+  Precision (weighted): 1.0000
+  Recall (weighted): 1.0000
+  F1 Score (weighted): 1.0000
+  Confusion matrix (rows=actual, columns=predicted):
+    [10, 0, 0]
+    [0, 9, 0]
+    [0, 0, 9]
+
+Decision Tree
+  Accuracy: 1.0000
+  Precision (weighted): 1.0000
+  Recall (weighted): 1.0000
+  F1 Score (weighted): 1.0000
+  Confusion matrix (rows=actual, columns=predicted):
+    [10, 0, 0]
+    [0, 9, 0]
+    [0, 0, 9]
+
+Selected best model by weighted F1 score: Logistic Regression
+Selection note: Both models tie on weighted F1; Logistic Regression is selected because it is simpler to explain.

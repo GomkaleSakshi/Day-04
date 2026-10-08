@@ -1,0 +1,17 @@
+Model comparison (20% test set, random_state=42)
+Metrics use weighted averaging for the three risk classes.
+
+Logistic Regression
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+
+Decision Tree
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+
+Selected best model by weighted F1 score: Logistic Regression
+Selection note: Both models tie on weighted F1; Logistic Regression is selected because it is simpler to explain.
